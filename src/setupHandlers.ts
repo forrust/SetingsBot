@@ -169,6 +169,7 @@ export const setupHandlers = (bot: Bot<MyContext>) => {
       if (username) {
         await updateUserSettings(userId, { username, updated_at: now() });
         await ctx.reply(`Username updated to ${username}`);
+        ctx.session.username = username;
         resetSessionState(ctx);
         await showMainMenu(ctx);
       }

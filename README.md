@@ -1,3 +1,7 @@
+## Demo
+
+[Check our bot here](https://t.me/mau_arki_example_bot?start=welcome)
+
 ## Installation
 
 To install and run the project, follow these steps:
