@@ -1,0 +1,21 @@
+{
+  "name": "settings-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@grammyjs/types": "^3.7.0",
+    "@supabase/supabase-js": "^2.43.1",
+    "dotenv": "^16.4.5",
+    "grammy": "^1.23.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
