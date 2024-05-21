@@ -9,13 +9,13 @@ export interface UserSettings {
   push_notifications?: boolean;
   two_factor?: boolean;
   updated_at?: Date;
+  password?: string;
 }
 
 export interface SessionData {
   isUpdatingUsername: boolean;
   isUpdatingProfilePicture: boolean;
   isResettingPassword: boolean;
-  username?: string;
 }
 
 
